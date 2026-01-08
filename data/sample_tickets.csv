@@ -7,6 +7,23 @@ text,label
 "Late fee on my bill that I do not recognize",Billing
 "My payment failed but money was deducted from my bank",Billing
 "How can I download my past invoices and receipts",Billing
+"I need to update my credit card details for the next cycle",Billing
+"Can I get a pro-rated refund for the unused time",Billing
+"There is a discrepancy between the quote and the final bill",Billing
+"I was charged for a premium plan but I am on basic",Billing
+"Where can I find the VAT details on my receipt",Billing
+"My discount code was not applied to the total",Billing
+"I want to switch from monthly to annual billing",Billing
+"My account says past due but I already paid",Billing
+"I need a formal PDF invoice for my accounting department",Billing
+"The currency on my checkout page is incorrect",Billing
+"I was billed during my free trial period",Billing
+"How do I cancel my paid subscription",Billing
+"Is there a way to add a second backup payment method",Billing
+"The bank declined my transaction for no reason",Billing
+"I need to remove my credit card info from the system",Billing
+"I received a bill for a workspace I already deleted",Billing
+"Why is there an extra processing fee on my statement",Billing
 "App crashes when I click upload",Technical
 "Cannot connect to the server",Technical
 "Feature stopped working after update",Technical
@@ -15,6 +32,23 @@ text,label
 "The mobile app is very slow and freezes frequently",Technical
 "File upload is stuck at 0 percent",Technical
 "Integration with the API returns an authentication error",Technical
+"The CSS styling is broken on Safari browser",Technical
+"I am not receiving push notifications on my device",Technical
+"The database connection keeps timing out during exports",Technical
+"The password field is not masking the characters correctly",Technical
+"I get a 404 error when clicking the documentation link",Technical
+"The plugin is incompatible with the latest version",Technical
+"Socket connection dropped unexpectedly",Technical
+"Data is not syncing between my phone and computer",Technical
+"Images are appearing as broken links in the gallery",Technical
+"The search function returns no results even for valid terms",Technical
+"The site layout is completely distorted on mobile",Technical
+"Getting a CORS error when trying to fetch data",Technical
+"Script execution is taking too long and timing out",Technical
+"The keyboard shortcuts are not responding",Technical
+"I found a bug in the reporting module calculations",Technical
+"The video player is showing a black screen with audio only",Technical
+"Is the server down? I cannot reach the homepage",Technical
 "Need to change my email address",Account
 "Password reset link is not working",Account
 "How do I update my profile details",Account
@@ -23,6 +57,23 @@ text,label
 "My account was locked, how do I unlock it",Account
 "I created two accounts by mistake, can you merge them",Account
 "I need to change my username and display name",Account
+"I forgot which email I used to sign up",Account
+"How do I enable two-factor authentication for security",Account
+"I need to transfer my admin rights to another user",Account
+"My session expires too quickly and logs me out",Account
+"How do I change my profile picture",Account
+"I want to deactivate my account temporarily",Account
+"Can I link my Google account for single sign-on",Account
+"I am not getting the verification code in my SMS",Account
+"I need to see my login history for security audit",Account
+"My account has been suspended without notice",Account
+"How do I invite more team members to my workspace",Account
+"I want to change the primary language of my interface",Account
+"Can I have multiple users logged in at once",Account
+"I need to update my job title in the settings",Account
+"How do I verify my identity for the pro badge",Account
+"I want to change the time zone for my account",Account
+"Where do I manage my notification preferences",Account
 "I love the new dashboard layout",Feedback
 "The latest update is great",Feedback
 "UI feels slow and clunky",Feedback
@@ -31,3 +82,20 @@ text,label
 "I really like your customer support team",Feedback
 "The onboarding emails are too frequent",Feedback
 "Overall great experience but reports could be faster",Feedback
+"I wish there was a way to export these charts to PDF",Feedback
+"The mobile version feels much better than the desktop",Feedback
+"It would be helpful to have a search bar in the settings",Feedback
+"The font size is a bit too small for comfortable reading",Feedback
+"I am disappointed with the removal of the old sidebar",Feedback
+"This tool has saved me five hours of work every week",Feedback
+"The color contrast makes the text hard to see",Feedback
+"I suggest adding a 'Undo' button for bulk actions",Feedback
+"The tutorial video was very helpful for beginners",Feedback
+"Your pricing is a bit high compared to competitors",Feedback
+"The desktop app consumes way too much RAM",Feedback
+"I find the icons to be very intuitive",Feedback
+"I would love to see an integration with Slack",Feedback
+"The loading animations are a bit distracting",Feedback
+"Best customer service I have ever dealt with",Feedback
+"The filter options are quite limited currently",Feedback
+"Keep up the good work on the weekly updates",Feedback
