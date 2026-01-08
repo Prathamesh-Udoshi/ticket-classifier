@@ -25,11 +25,27 @@ def load_model():
     """
     Load and cache the trained model.
     
+    First tries to load a saved model from models/trained_model.pkl.
+    If not found, trains a new model from the CSV file.
+    
     Returns:
         Trained TicketClassifier instance
     """
+    from classifier.model import TicketClassifier
+    
+    model_path = "models/trained_model.pkl"
     csv_path = "data/sample_tickets.csv"
     
+    # Try to load saved model first
+    if os.path.exists(model_path):
+        try:
+            classifier = TicketClassifier()
+            classifier.load(model_path)
+            return classifier
+        except Exception as e:
+            st.warning(f"Could not load saved model: {str(e)}. Training from CSV instead...")
+    
+    # Fall back to training from CSV
     if not os.path.exists(csv_path):
         st.error(f"Training data not found at {csv_path}")
         return None
