@@ -1,0 +1,33 @@
+text,label
+"I was charged twice on my credit card",Billing
+"Refund not processed yet",Billing
+"Invoice shows the wrong amount",Billing
+"Billing address on the invoice is incorrect",Billing
+"Why was my subscription renewed and I got charged again",Billing
+"Late fee on my bill that I do not recognize",Billing
+"My payment failed but money was deducted from my bank",Billing
+"How can I download my past invoices and receipts",Billing
+"App crashes when I click upload",Technical
+"Cannot connect to the server",Technical
+"Feature stopped working after update",Technical
+"The page keeps loading forever and never finishes",Technical
+"I am seeing error code 500 when I try to log in",Technical
+"The mobile app is very slow and freezes frequently",Technical
+"File upload is stuck at 0 percent",Technical
+"Integration with the API returns an authentication error",Technical
+"Need to change my email address",Account
+"Password reset link is not working",Account
+"How do I update my profile details",Account
+"Please delete my account and all my data",Account
+"I want to change the owner of this workspace",Account
+"My account was locked, how do I unlock it",Account
+"I created two accounts by mistake, can you merge them",Account
+"I need to change my username and display name",Account
+"I love the new dashboard layout",Feedback
+"The latest update is great",Feedback
+"UI feels slow and clunky",Feedback
+"The navigation is confusing and hard to use",Feedback
+"Would be nice to have dark mode in the product",Feedback
+"I really like your customer support team",Feedback
+"The onboarding emails are too frequent",Feedback
+"Overall great experience but reports could be faster",Feedback
