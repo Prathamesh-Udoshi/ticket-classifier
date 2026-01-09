@@ -14,12 +14,14 @@ Customer support teams receive a high volume of tickets daily. Manually categori
 ## Approach
 
 ### Machine Learning Model
-- **Algorithm**: TF-IDF (Term Frequency-Inverse Document Frequency) + Logistic Regression
+- **Algorithm**: TF-IDF (Term Frequency-Inverse Document Frequency) + Multinomial Naive Bayes
 - **Rationale**: 
   - Fast inference suitable for real-time classification
   - Explainable predictions (probability scores for each category)
   - Works well with small to medium-sized datasets
   - No GPU required, easy to deploy
+  - Naive Bayes is particularly effective for text classification tasks
+  - Handles high-dimensional sparse data (like TF-IDF vectors) efficiently
 
 ### Priority Assignment
 - **Method**: Rule-based logic (not ML-based)
@@ -116,7 +118,7 @@ classifier.save("models/trained_model.pkl")  # Save for later use
 
 ## Limitations
 
-1. **Small Training Dataset**: The current model is trained on ~30 synthetic examples. Real-world performance will improve with more diverse, real data.
+1. **Training Dataset Size**: The model performance depends on the quality and quantity of training data. Adding more diverse, real-world examples will improve accuracy and generalization.
 
 2. **Fixed Categories**: Categories are hardcoded. Adding new categories requires retraining and code changes.
 
@@ -126,15 +128,16 @@ classifier.save("models/trained_model.pkl")  # Save for later use
 
 5. **No Context**: The model doesn't consider ticket metadata (customer tier, ticket history, etc.) which could improve classification.
 
-6. **TF-IDF Limitations**: While fast and explainable, TF-IDF may not capture semantic relationships as well as modern embeddings (Word2Vec, BERT, etc.).
+6. **TF-IDF + Naive Bayes Limitations**: While fast and explainable, TF-IDF may not capture semantic relationships as well as modern embeddings (Word2Vec, BERT, etc.). Naive Bayes assumes feature independence, which may not always hold true for text.
 
 ## Next Steps
 
 ### Short-term Improvements
 1. **Model Retraining**: Collect real ticket data and retrain the model for better accuracy
-2. **Model Persistence**: Save trained models to disk and load them in production
+2. **Model Persistence**: Save trained models to disk and load them in production (already implemented)
 3. **Evaluation Metrics**: Add cross-validation and classification reports (precision, recall, F1-score)
 4. **Confidence Thresholds**: Implement minimum confidence thresholds for auto-routing vs. manual review
+5. **Model Comparison**: Experiment with different classifiers (Logistic Regression, SVM, Random Forest) to find optimal performance
 
 ### Medium-term Enhancements
 1. **Monitoring**: Add logging and metrics tracking for production monitoring
@@ -151,7 +154,8 @@ classifier.save("models/trained_model.pkl")  # Save for later use
    - Language-specific models or multilingual embeddings
 2. **Advanced ML Models**: Consider upgrading to:
    - Transformer-based models (BERT, DistilBERT) for better semantic understanding
-   - Ensemble methods for improved accuracy
+   - Ensemble methods combining Naive Bayes with other classifiers for improved accuracy
+   - Fine-tuned Naive Bayes with different smoothing parameters (alpha tuning)
 3. **Contextual Features**: Incorporate ticket metadata:
    - Customer tier/segment
    - Historical ticket patterns
@@ -161,7 +165,7 @@ classifier.save("models/trained_model.pkl")  # Save for later use
 
 ## Dependencies
 
-- `scikit-learn` - Machine learning (TF-IDF, Logistic Regression)
+- `scikit-learn` - Machine learning (TF-IDF, Multinomial Naive Bayes)
 - `pandas` - Data manipulation
 - `numpy` - Numerical operations
 - `streamlit` - Web interface (optional, for app.py)
