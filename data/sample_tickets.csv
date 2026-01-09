@@ -24,6 +24,16 @@ text,label
 "I need to remove my credit card info from the system",Billing
 "I received a bill for a workspace I already deleted",Billing
 "Why is there an extra processing fee on my statement",Billing
+"I am trying to pay but the checkout button is grayed out",Billing
+"Can I pay via wire transfer or PayPal instead",Billing
+"My tax exemption certificate was rejected",Billing
+"I need to split this payment across two different cards",Billing
+"I was charged for 5 seats but only have 3 users",Billing
+"Is there a grace period for late payments",Billing
+"I need to change the billing contact email address",Billing
+"Your pricing page said $10 but I was billed $12",Billing
+"I want to dispute a charge from last month",Billing
+"How do I get a receipt for a transaction from 2 years ago",Billing
 "App crashes when I click upload",Technical
 "Cannot connect to the server",Technical
 "Feature stopped working after update",Technical
@@ -49,6 +59,16 @@ text,label
 "I found a bug in the reporting module calculations",Technical
 "The video player is showing a black screen with audio only",Technical
 "Is the server down? I cannot reach the homepage",Technical
+"I can't click the 'Save' button even though I filled the form",Technical
+"The page font is rendering as weird symbols",Technical
+"I am getting a security warning from my browser on your site",Technical
+"The export to CSV feature is giving me a corrupted file",Technical
+"My screen goes white after I log in",Technical
+"The API documentation code snippets are wrong",Technical
+"The webhook is sending double notifications",Technical
+"I'm stuck in an infinite redirect loop",Technical
+"The software is using 99 percent of my CPU",Technical
+"The dark mode toggle isn't changing the background color",Technical
 "Need to change my email address",Account
 "Password reset link is not working",Account
 "How do I update my profile details",Account
@@ -74,6 +94,16 @@ text,label
 "How do I verify my identity for the pro badge",Account
 "I want to change the time zone for my account",Account
 "Where do I manage my notification preferences",Account
+"I want to leave this team and join another one",Account
+"How do I set up a recovery phone number",Account
+"I need to see which devices are logged into my account",Account
+"My MFA token is being rejected by the system",Account
+"I want to change my account type from personal to business",Account
+"How do I hide my email from other team members",Account
+"I can't access my old email to verify the account",Account
+"Is it possible to have an account without a password",Account
+"I need to export my personal account activity logs",Account
+"How do I change my security questions",Account
 "I love the new dashboard layout",Feedback
 "The latest update is great",Feedback
 "UI feels slow and clunky",Feedback
@@ -99,3 +129,13 @@ text,label
 "Best customer service I have ever dealt with",Feedback
 "The filter options are quite limited currently",Feedback
 "Keep up the good work on the weekly updates",Feedback
+"I think the checkout flow is a bit overcomplicated",Feedback
+"The new feature is cool but I don't see the point of it",Feedback
+"Your documentation is way too long and wordy",Feedback
+"The app feels like it was designed for children",Feedback
+"I would pay more if you had better reporting tools",Feedback
+"The icons don't make sense without text labels",Feedback
+"I'm switching to a competitor because of the slow support",Feedback
+"The email notifications are very helpful and timely",Feedback
+"I wish I could customize the dashboard colors",Feedback
+"This is the most stable version you have ever released",Feedback

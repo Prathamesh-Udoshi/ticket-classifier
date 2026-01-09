@@ -35,18 +35,24 @@ class TicketClassifier:
             Configured sklearn Pipeline
         """
         vectorizer = TfidfVectorizer(
-            max_features=5000,
-            ngram_range=(1, 2),  # Unigrams and bigrams
+            max_features=10000,
+            ngram_range=(1, 3),  # Unigrams and bigrams
             min_df=1,
-            max_df=0.95,
-            stop_words='english'
+            max_df=0.9,
+            stop_words='english',
+            sublinear_tf=True
         )
         
-        classifier = LogisticRegression(
+        '''classifier = LogisticRegression(
             max_iter=1000,
             random_state=42,
-            solver='lbfgs'
-        )
+            solver='lbfgs',
+            class_weight='balanced'
+        )'''
+            
+        from sklearn.naive_bayes import MultinomialNB
+        classifier = MultinomialNB(alpha=1.0)
+        
         
         pipeline = Pipeline([
             ('tfidf', vectorizer),

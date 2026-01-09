@@ -2,10 +2,10 @@
 
 # Fixed categories for ticket classification
 CATEGORIES = [
-    "Billing",
-    "Technical",
     "Account",
-    "Feedback"
+    "Billing",
+    "Feedback",
+    "Technical"
 ]
 
 # Priority levels

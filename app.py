@@ -131,11 +131,13 @@ def main():
                 
                 # Category probabilities
                 st.markdown("**Category Probabilities:**")
+
                 prob_dict = {CATEGORIES[i]: float(prob) for i, prob in enumerate(probabilities)}
                 
                 # Sort by probability
                 sorted_probs = sorted(prob_dict.items(), key=lambda x: x[1], reverse=True)
-                
+                top_category, top_prob = sorted_probs[0]
+
                 for cat, prob in sorted_probs:
                     st.progress(prob, text=f"{cat}: {format_confidence(prob)}")
                 
