@@ -139,3 +139,357 @@ text,label
 "The email notifications are very helpful and timely",Feedback
 "I wish I could customize the dashboard colors",Feedback
 "This is the most stable version you have ever released",Feedback
+
+"My card was charged $49.99 but I cancelled the subscription three days ago.",Billing
+"Is there a discount for non-profit organizations or educational institutions?",Billing
+"I see a 'Pending' charge from you guys but the transaction failed at checkout.",Billing
+"The invoice I received doesn't include my company's Tax ID number.",Billing
+"I was billed twice this month, once on the 1st and again on the 15th.",Billing
+"Can I get a refund for the remaining 6 months of my annual plan?",Billing
+"Why is there a $2.00 international transaction fee on my statement?",Billing
+"I need to move my billing cycle from the 15th to the 30th of every month.",Billing
+"My payment was declined even though I have sufficient funds. Why?",Billing
+"I need to speak to someone about a fraudulent charge on my account.",Billing
+"How do I add a PO number to my future invoices?",Billing
+"The price on the checkout page changed after I entered my zip code.",Billing
+"I received a late payment notice but my auto-pay is turned on.",Billing
+"Can I pay for a full year in advance via a bank wire transfer?",Billing
+"I'm being charged for a 'Pro' seat for a user I deleted last month.",Billing
+"The system says my credit card is expired but the new one doesn't expire until 2029.",Billing
+"Where can I see a breakdown of the taxes applied to my last order?",Billing
+"I am trying to upgrade but the system won't let me use my existing credit balance.",Billing
+"Why did my monthly rate increase without any email notification?",Billing
+"I need a receipt for my records that shows the last 4 digits of the card used.",Billing
+"I'm getting a '403 Forbidden' error whenever I try to access the dashboard.",Technical
+"The CSV export is mangling special characters like ñ and é.",Technical
+"The mobile app crashes immediately upon opening on iOS 17.",Technical
+"I can't upload files larger than 5MB even though the limit says 20MB.",Technical
+"The site is completely unresponsive on Internet Explorer 11.",Technical
+"My API keys are not authenticating requests to the /v2/data endpoint.",Technical
+"The real-time sync is lagging by about 10 minutes between devices.",Technical
+"I'm seeing a blank white screen after clicking the 'Finalize' button.",Technical
+"The password reset email never arrived in my inbox or spam folder.",Technical
+"The 'Undo' keyboard shortcut (Ctrl+Z) isn't working in the text editor.",Technical
+"I am stuck in a login loop where it keeps asking me to verify my email.",Technical
+"The CSS isn't loading correctly; the site looks like plain text and blue links.",Technical
+"Our firewall is blocking your assets; what IP addresses do I need to whitelist?",Technical
+"The 'Sort by Date' function is sorting alphabetically instead of chronologically.",Technical
+"The video player says 'Format not supported' on my Android tablet.",Technical
+"I found a security vulnerability where I can see another user's folder name.",Technical
+"The webhook payload is missing the 'user_id' field specified in your docs.",Technical
+"My screen resolution is 4K and the UI elements are way too small to see.",Technical
+"The search results are showing deleted items from three weeks ago.",Technical
+"I'm getting a 'JavaScript heap out of memory' error during large imports.",Technical
+"I need to delete my account permanently under GDPR 'Right to be Forgotten'.",Account
+"Can I merge my work account and my personal account into one login?",Account
+"How do I change the 'Workspace Owner' because the previous owner left the company?",Account
+"I want to enable 2FA but I don't have a smartphone for the app.",Account
+"I am trying to invite a team member but it says their email is already taken.",Account
+"How do I change my primary login email without losing my data?",Account
+"I need to see a log of every time my account was accessed this week.",Account
+"Why was my account suspended? I haven't violated any terms.",Account
+"I want to hide my profile from the public directory.",Account
+"How do I transfer ownership of a specific project to a different user?",Account
+"I've lost access to my backup codes for two-factor authentication.",Account
+"Can I have one login that manages multiple different organizations?",Account
+"How do I change my display name that appears in team comments?",Account
+"The invitation link for the new workspace says it has expired.",Account
+"I want to deactivate my account for the summer and reactivate it in September.",Account
+"I need to set up Single Sign-On (SSO) for my entire team using Okta.",Account
+"Is there a way to see which devices currently have an active session?",Account
+"I mistakenly signed up with a typo in my email address. Help!",Account
+"How do I limit my team members' permissions so they can't delete files?",Account
+"I want to opt-out of all marketing emails but keep transactional ones.",Account
+"The new navigation bar is much harder to use than the old one.",Feedback
+"I really love how fast the search function is now. Great job!",Feedback
+"It would be amazing if you guys integrated with Trello or Asana.",Feedback
+"The contrast between the text and the background is too low for accessibility.",Feedback
+"The latest update feels like a step backward in terms of user experience.",Feedback
+"I've been using this for a week and it has already improved my workflow.",Feedback
+"The icons are confusing; I have to hover over everything to know what it does.",Feedback
+"Why did you remove the 'Quick Export' button? It was my favorite feature.",Feedback
+"The onboarding walkthrough was way too long and I couldn't skip it.",Feedback
+"I think your pricing for the 'Business' tier is too high for small startups.",Feedback
+"I would love a dark mode option for the mobile app.",Feedback
+"The customer support chat bot is very frustrating and doesn't understand me.",Feedback
+"The documentation is excellent and made it very easy to get started.",Feedback
+"Could you add a feature to bulk-edit tags on multiple items at once?",Feedback
+"The app feels a bit bloated now; it's taking a long time to load.",Feedback
+"I find the notifications to be very intrusive and distracting.",Feedback
+"Your competitor just added AI summaries; do you have plans for that?",Feedback
+"The color palette used in the charts is very pleasing to the eye.",Feedback
+"I'm frustrated that I can't customize the dashboard layout more.",Feedback
+"Thank you for finally fixing that bug in the reporting module!",Feedback
+"I need to update my card (Billing) because my account is locked (Account).",Account
+"The site crashed (Technical) while I was trying to pay my bill (Billing).",Technical
+"I love the app (Feedback) but I can't log in today (Technical).",Technical
+"Can I get a refund (Billing) because the software is too buggy (Feedback)?",Billing
+"I want to delete my account (Account) because it's too expensive (Feedback).",Account
+"The password reset (Account) keeps giving me a 500 error (Technical).",Technical
+"I was charged for 10 users (Billing) but I can only see 5 in my team (Account).",Billing
+"The 'Download Invoice' button (Billing) is grayed out and won't click (Technical).",Technical
+"I have a suggestion (Feedback) for the login screen (Account).",Feedback
+"My annual renewal happened today (Billing) but I wanted to cancel (Account).",Billing
+"The site is down (Technical). This is the third time this week (Feedback)!!!",Technical
+"I need to change my email (Account) but the 'Save' button is broken (Technical).",Technical
+"Is there a pro-rated price (Billing) for adding 2 more team members (Account)?",Billing
+"The 'Feedback' button itself is causing my browser to freeze.",Technical
+"I want to pay via PayPal (Billing) but the option isn't showing up (Technical).",Billing
+"The export feature is great (Feedback) but the file is corrupted (Technical).",Technical
+"I'm an admin (Account) but I can't see the billing tab (Billing).",Account
+"This is the best tool ever (Feedback) but I forgot my password (Account).",Account
+"Why is the VAT (Billing) different on the mobile app vs the web (Technical)?",Billing
+"I want to close my account (Account) because I'm moving to a competitor.",Account
+
+"Double charge on my Visa statement from yesterday",Billing
+"Refund for transaction #99281 hasn't hit my balance yet",Billing
+"Invoice 2026-04 shows $150 but the quote said $120",Billing
+"Incorrect billing address on my January tax receipt",Billing
+"Why was my account auto-renewed without my consent?",Billing
+"I don't recognize this $5.00 service fee on my bill",Billing
+"Payment failed on the site but bank says money was sent",Billing
+"Download link for the 2025 annual receipt is broken",Billing
+"Update my billing info for the upcoming renewal cycle",Billing
+"Requesting a pro-rated refund for the remaining 3 months",Billing
+"Total amount on checkout is different from the final invoice",Billing
+"Charged for the Enterprise plan but I signed up for Basic",Billing
+"Where is the VAT breakdown on my last transaction?",Billing
+"Discount code 'WELCOME20' was not applied to my total",Billing
+"Change my billing frequency from monthly to yearly",Billing
+"Account shows unpaid status but transaction was successful",Billing
+"I need a formal PDF invoice for my company's audit",Billing
+"Currency is showing in Yen but I am located in the UK",Billing
+"Billed $29.99 during my free trial period. Please refund.",Billing
+"How do I cancel my paid subscription immediately?",Billing
+"Add a backup payment method to prevent service interruption",Billing
+"Bank declined the charge even though my card is valid",Billing
+"Remove my credit card details from your database for safety",Billing
+"Received a bill for a workspace that was deleted in December",Billing
+"What is this extra processing fee on my Amex statement?",Billing
+"Checkout button is disabled and I can't pay for the upgrade",Billing
+"Can I pay via wire transfer for the yearly corporate plan?",Billing
+"Tax exemption certificate was uploaded but still pending",Billing
+"Split the payment across my personal and business cards",Billing
+"Billed for 8 seats but I only have 5 users in my team",Billing
+"Is there a grace period for late payments on invoices?",Billing
+"Change the billing contact email to accounting@company.com",Billing
+"The pricing page said $15 but I was charged $18",Billing
+"I want to dispute the charge from November 15th",Billing
+"Get a receipt for a purchase from June 2023",Billing
+"App crashes when I try to save the edited document",Technical
+"Failed to connect to the cloud server. Error 1004.",Technical
+"Feature 'Auto-Sync' stopped working after the update",Technical
+"Dashboard keeps loading infinitely on my Chrome browser",Technical
+"Error 500 when attempting to access the settings page",Technical
+"Mobile app is lagging and freezes during data entry",Technical
+"File upload is stuck at 45% and never completes",Technical
+"API authentication error: Invalid token provided",Technical
+"UI is misaligned on Safari version 17.2",Technical
+"Not receiving any push notifications on my iOS device",Technical
+"Database timeout error during the CSV export process",Technical
+"Password field is not hidden and shows plain text",Technical
+"404 error when clicking the documentation link for API",Technical
+"Plugin is not compatible with the current software build",Technical
+"Socket connection was closed unexpectedly by the host",Technical
+"Data is not syncing between my tablet and my desktop",Technical
+"Broken image icons appearing in the project gallery",Technical
+"Search bar returns zero results for existing file names",Technical
+"Website layout is completely broken on mobile view",Technical
+"CORS error when trying to fetch data from the server",Technical
+"Python script execution timed out after 60 seconds",Technical
+"Keyboard shortcuts like Ctrl+S are not responding",Technical
+"Found a math bug in the analytics report calculation",Technical
+"Video player shows a black screen but plays audio",Technical
+"Is the service down? I can't load the login page",Technical
+"Save button is inactive even though all fields are full",Technical
+"Text rendering as strange symbols on the home page",Technical
+"Security warning: SSL certificate has expired on your site",Technical
+"Exporting to Excel results in a corrupted file error",Technical
+"Screen goes totally white after I enter my credentials",Technical
+"Documentation examples for Java are syntactically wrong",Technical
+"Webhooks are firing twice for every single event",Technical
+"Infinite redirect loop after clicking the login button",Technical
+"Software is consuming 95% of my RAM. Very slow.",Technical
+"Dark mode toggle isn't changing the sidebar color",Technical
+"Change my registered email to a different domain",Account
+"Password reset link says it is invalid or expired",Account
+"How to update my profile bio and social links?",Account
+"Request to delete my account and all associated data",Account
+"Transfer workspace ownership to another administrator",Account
+"Account locked due to too many login attempts",Account
+"Merge my two accounts into a single user profile",Account
+"How do I change my display name in the community?",Account
+"Forgot which email I used to sign up for this service",Account
+"Enable two-factor authentication for my login security",Account
+"Grant admin rights to a new team member",Account
+"Session keeps expiring every 5 minutes. Too fast.",Account
+"How do I change my profile picture or avatar?",Account
+"Deactivate my account temporarily for a few months",Account
+"Link my Google account for easier Single Sign-On",Account
+"Verification code via SMS is not arriving on my phone",Account
+"Show me a list of all devices logged into my account",Account
+"My account was suspended without any warning",Account
+"Invite 10 more people to my private workspace",Account
+"Change the default interface language to French",Account
+"Can multiple people use the same login at once?",Account
+"Update my job title in the professional settings",Account
+"How do I get the 'Verified' badge on my account?",Account
+"Adjust the time zone for my activity logs and stats",Account
+"Manage and disable specific email notifications",Account
+"Leave my current team and join the 'Marketing' group",Account
+"Set up a recovery phone number for account access",Account
+"Check the login history for suspicious activity",Account
+"MFA token is being rejected by the login screen",Account
+"Convert my personal account into a business profile",Account
+"Hide my email address from other users in the group",Account
+"Access my account without the old verification email",Account
+"Is it possible to have a password-less login?",Account
+"Download a log of all my personal account actions",Account
+"Change the security questions for my account recovery",Account
+"The new dashboard is very intuitive and clean",Feedback
+"Latest software update has improved my workflow",Feedback
+"The user interface feels very slow and unresponsive",Feedback
+"Navigation is cluttered and hard to understand",Feedback
+"Please add a dark mode feature to the web app",Feedback
+"Support was very helpful in solving my problem",Feedback
+"Too many marketing emails are being sent to me",Feedback
+"Great experience, but the search could be faster",Feedback
+"I want an option to export these charts to PDF",Feedback
+"Mobile app feels much smoother than the desktop",Feedback
+"A search bar in the settings would be very helpful",Feedback
+"Text is too small to read comfortably on a laptop",Feedback
+"The old sidebar was better; don't like the new one",Feedback
+"This tool saves me hours of manual work every day",Feedback
+"Contrast on the new theme makes it hard to see",Feedback
+"Add an undo button for when I delete items by mistake",Feedback
+"The tutorial video was great for a new user like me",Feedback
+"Pricing is a bit high compared to other tools",Feedback
+"Desktop app uses way too much memory and CPU",Feedback
+"The icons are very clear and easy to understand",Feedback
+"Integration with Slack would be a game changer",Feedback
+"Animations on the page are a bit too distracting",Feedback
+"Best customer service I've dealt with in a while",Feedback
+"Filter options in the table are very limited",Feedback
+"Weekly updates are great, keep them coming!",Feedback
+"Checkout process is too complicated and slow",Feedback
+"New feature is interesting but I don't need it",Feedback
+"Documentation is too long; needs more summaries",Feedback
+"App design looks a bit outdated and childish",Feedback
+"Better reporting tools would make this worth more",Feedback
+"Icons need text labels to make sense to me",Feedback
+"Switching to a competitor because of the lag",Feedback
+"Email alerts are very helpful and arrive on time",Feedback
+"I want to customize the colors of my workspace",Feedback
+"This version is very stable and hasn't crashed once",Feedback
+
+"I was charged $49.99 but my receipt says $39.99, please explain the $10 difference",Billing
+"Can I change my payment method from a corporate Amex to a personal Visa?",Billing
+"I need to download all invoices from the last 24 months for a tax audit",Billing
+"Why is there a pending charge on my card if the transaction was declined?",Billing
+"I am a tax-exempt non-profit; how do I remove sales tax from my future bills?",Billing
+"Is it possible to pay for a 3-year subscription upfront for a higher discount?",Billing
+"My account was downgraded to 'Free' even though I have a receipt for 'Pro'",Billing
+"I need to add a secondary billing contact email for our accounting department",Billing
+"The currency on my checkout page is set to USD but I need to pay in GBP",Billing
+"I want a refund for the unused portion of my annual plan after I cancel",Billing
+"Where can I find the wire transfer instructions for an enterprise invoice?",Billing
+"I see a charge from 'SERVICE_PRO_WEB' on my bank statement—is this from you?",Billing
+"I tried to upgrade but it says my credit card is from an unsupported region",Billing
+"Can you split my current $1,200 invoice into four monthly installments?",Billing
+"My discount code 'SAVE50' worked on the preview but not on the final charge",Billing
+"How do I update the VAT ID on my account so it appears on the PDF receipt?",Billing
+"I received a late payment notice but my auto-pay has been active for years",Billing
+"There is a $1.00 verification charge on my card that I did not authorize",Billing
+"I was billed for 15 seats but my team only has 11 active members",Billing
+"I need to change the billing cycle from the 1st of the month to the 15th",Billing
+"The 'Download Invoice' button is not appearing for my most recent purchase",Billing
+"Can I use two different credit cards to pay for a single high-tier plan?",Billing
+"I need a formal proforma invoice before I can authorize the bank transfer",Billing
+"Why was I charged a processing fee for a standard credit card payment?",Billing
+"I want to dispute a transaction from August 2025 that was a mistake",Billing
+"How do I set up a backup payment method in case my primary card expires?",Billing
+"The price on the website said $9.99 but I was charged $12.45 after tax",Billing
+"I need a receipt that shows the last four digits of the card used for payment",Billing
+"Please stop the auto-renewal for my subscription effective immediately",Billing
+"My payment failed three times even though my bank says the card is active",Billing
+"I need to change my login email from my old university address to a Gmail",Account
+"I lost my phone and can't access my 2FA codes, how do I get back in?",Account
+"Please delete my entire account and all data associated with my email",Account
+"How do I transfer the 'Workspace Owner' role to my manager?",Account
+"I keep getting 'Incorrect Password' even though I just reset it",Account
+"Can I merge my personal account with my corporate SSO account?",Account
+"I need to see a log of all IP addresses that have logged into my account",Account
+"How do I enable 2FA using a hardware key like a YubiKey?",Account
+"I want to change my username but it says the name is already taken",Account
+"My account has been flagged for 'Suspicious Activity' and I am locked out",Account
+"How do I invite a guest to a single project without giving them full access?",Account
+"I want to deactivate my account for 6 months without losing my projects",Account
+"Is there a way to see which team members have enabled two-factor security?",Account
+"I need to update my display name and profile picture for the directory",Account
+"How do I link my Slack profile to my account for single sign-on?",Account
+"I didn't receive the verification email after signing up for a new account",Account
+"I want to leave a workspace that I was invited to by mistake",Account
+"Can I have two different email addresses linked to the same user profile?",Account
+"How do I reset my security questions for account recovery?",Account
+"I need to change the primary language of my dashboard to Portuguese",Account
+"My session expires every 15 minutes, which is way too frequent for me",Account
+"How do I grant 'Billing Admin' rights to someone without making them a full admin?",Account
+"I want to hide my profile from search engines and public view",Account
+"I forgot the email address I used to sign up for my premium plan",Account
+"Is it possible to change my account type from 'Individual' to 'Organization'?",Account
+"I am getting 'Unauthorized Access' errors when I try to view my own files",Account
+"How do I set up a recovery email in case I lose access to my primary one?",Account
+"I mistakenly created a second account and want to move my data to the first one",Account
+"How do I verify my identity to get the 'Verified Professional' badge?",Account
+"I want to opt-out of all data collection and tracking for my account",Account
+
+"The application keeps crashing with a 'NullReferenceException' on the export screen",Technical
+"I can't connect to the API via Python; getting a '403 Forbidden' response",Technical
+"The page layout is completely broken when viewed in dark mode on Firefox",Technical
+"Our corporate firewall is blocking your CDN; what are the IP addresses to whitelist?",Technical
+"The 'Save' button is unresponsive even though all required fields are filled out",Technical
+"The mobile app stays on a white screen after the splash logo appears",Technical
+"CSV imports are failing because the system doesn't recognize UTF-8 characters",Technical
+"I am experiencing a massive memory leak; the desktop app is using 4GB of RAM",Technical
+"The WebSocket connection is dropping every 30 seconds on a stable connection",Technical
+"Images are not loading in the gallery, showing only a broken file icon",Technical
+"The search function is case-sensitive and it shouldn't be",Technical
+"I am getting an 'Infinite Redirect' loop when I try to log in via SSO",Technical
+"The CSS for the dashboard isn't loading, everything is just blue links",Technical
+"The video player is showing 'Error Code 224003' on all tutorial videos",Technical
+"The integration with Google Calendar is not syncing events to my dashboard",Technical
+"I found a bug where I can see other users' private comments in the inspector",Technical
+"The real-time collaboration feature is lagging by at least 15 seconds",Technical
+"The app doesn't support my screen resolution of 3440 x 1440",Technical
+"I'm getting a 'Database Connection Timeout' during large data queries",Technical
+"The keyboard shortcuts (Cmd+K) are conflicting with my browser's shortcuts",Technical
+"Auto-save is not working and I just lost three hours of work",Technical
+"The site is incredibly slow today; is there a server-side performance issue?",Technical
+"Getting a 'JavaScript Heap Out of Memory' error when rendering large charts",Technical
+"The 'Delete' confirmation modal won't close when I click the 'X'",Technical
+"The plugin keeps saying 'Incompatible Version' after the 2.4.0 update",Technical
+"I would love to see a Kanban view added to the project management module",Feedback
+"The new UI update is very cluttered; I liked the minimalist version better",Feedback
+"Your customer support team is amazing! Sarah helped me so much today",Feedback
+"The onboarding process is too long and there is no way to skip the intro",Feedback
+"I'm considering switching to a competitor because your mobile app is so limited",Feedback
+"The color palette used in the reporting charts is not color-blind friendly",Feedback
+"I wish there was a way to bulk-edit user permissions instead of one by one",Feedback
+"The software is great but the pricing for small teams is a bit steep",Feedback
+"The documentation is too technical; please provide more beginner-friendly guides",Feedback
+"I really appreciate the frequent updates and new feature releases",Feedback
+"The notification sounds are very piercing and there is no way to change them",Feedback
+"It would be very helpful if the dashboard had a customizable widget system",Feedback
+"The latest patch fixed all my lag issues—thank you for the hard work!",Feedback
+"The icons in the sidebar are confusing; I don't know what they mean without labels",Feedback
+"I suggest adding an integration with Zapier to automate our workflows",Feedback
+"The font choice is a bit hard to read for long periods of time",Feedback
+"I feel like the 'Pro' plan doesn't offer enough value for the extra cost",Feedback
+"The app feels like it was designed for mobile first and desktop as an afterthought",Feedback
+"I love the new dark mode, but the contrast on the text could be higher",Feedback
+"Why did you move the search bar? It was much better in the top right corner",Feedback
+"The automated email summaries are great, please keep sending them",Feedback
+"I find the 'Undo' button is hidden too deep in the sub-menus",Feedback
+"The product is perfect for our needs, but the loading animations are annoying",Feedback
+"I wish I could customize the email templates sent to my clients",Feedback
+"The tutorial videos are a bit outdated compared to the current interface",Feedback
