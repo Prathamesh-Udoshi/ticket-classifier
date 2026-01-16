@@ -16,7 +16,7 @@ from preprocess.clean_text import clean_text
 
 class TicketClassifier:
     """
-    Ticket classification model using TF-IDF + Logistic Regression.
+    Ticket classification model using TF-IDF + Multinomial Naive Bayes.
     
     This class encapsulates the training and prediction logic for
     classifying support tickets into predefined categories.
